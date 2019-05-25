@@ -1,17 +1,8 @@
 import 'package:flutter/material.dart';
+//nosotros escribimos
+import 'package:contador/app.dart';
 
 void main(){
-  runApp(new MyApp());
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
-  @override
-  Widget build( context ){
-    return MaterialApp(
-      home: Center(
-        child: Text('Hola Mundo'),
-      ) 
-      
-    );
-  }
-}
